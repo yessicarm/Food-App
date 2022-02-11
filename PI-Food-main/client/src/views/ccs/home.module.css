@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Playfair+Display&family=Prata&display=swap');
+
+.principal{
+    font-family: 'Prata', serif;
+    background-color: white;
+    width: 1100px;
+    height: auto;
+    margin:auto;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 60px;
+ 
+}
+.container {  
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+  .h3{
+    
+  }
+  .navbar {  
+    position: relative;
+    
+    height: 200px;
+    width: 1100px;
+  }
+
+  .navbar img{
+    height: 150px;
+    width: 1100px;
+
+  }
+  .textnav{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  
+  .searchbar { 
+      margin: auto;
+      height: 100px;;
+      padding-bottom: 30px;
+   }
+  
+  .new-recipes {  
+   display: flex;
+  }
+  
+  .createnew { display: flex; }
+  
+  .newrecipes {display: flex;  }
+  
+  .gridy {  
+   display: flex;
+   
+    
+  }
+
+ 
+  
+  .btnorden {  
+    margin: 10px;
+      display: flex;
+      justify-content: center
+      
+}
+
+
+
+.filter{
+   
+    display: flex;
+      justify-content: center
+
+}
+  
+  .pagination {  }
+
+  .title{
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      
+     
+  }
+
+.btnsdiets{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+.btnsorder{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    ;
+
+}
+  
+.btn2 {
+    background-color: white;
+}
+.btn2 {
+    
+   margin: 5px;
+   padding: 3px 5px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 100% auto;
+   color: rgb(0, 106, 114);            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .btn2:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(2, 111, 126);
+   text-decoration: none;
+ }
+
+  .btn2 a{
+      text-decoration: none;
+      color: #ffffff;
+    font-size: 5px;
+  }
+
+  .dietbutton{
+    padding: 10px;
+  }
+
+  

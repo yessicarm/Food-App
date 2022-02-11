@@ -1,0 +1,64 @@
+.input{
+    border-radius: 8px ;
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    
+    
+    
+}
+
+.container{
+    display: flex;
+   
+    
+    
+}
+
+.searchcontent{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.btnrecipes{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.btnrecipes a{
+  text-decoration: none;
+}
+
+.btn {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btn {
+    
+   margin: auto ;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 5px 25px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 100% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+  .btn a{
+      text-decoration: none;
+      color: #ffffff;
+    font-size: 5px;
+  }
+
+ 

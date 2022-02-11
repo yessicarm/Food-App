@@ -1,0 +1,114 @@
+.principal{
+    background: #fff;
+    height: auto;
+    width: 500vh;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 30px -10 rgb(138,135,135,0.5);
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(6,1fr);
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    text-align: center;
+} 
+
+.container{
+    width: auto;
+    flex-wrap: nowrap;
+
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    
+    
+}
+
+
+.btn {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btn {
+    
+   margin: auto ;
+   padding: 20px 50px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 100% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+ } 
+
+ .btn:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+  .btn a{
+      text-decoration: none;
+      color: #ffffff;
+    font-size: 5px;
+    text-decoration: none;
+  }
+
+  .diets{
+      padding-bottom: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      
+  }
+ 
+  .diets input{
+    border-style: none;
+    background-color: rgb(240, 240, 240);
+  }
+
+  
+
+  .textarea{
+    
+    width:400px;
+    height:50px;    
+    margin: 10px;
+  }
+
+  .scores{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    
+  }
+
+  .div{
+    margin: 10px;
+  }
+
+  .inputname{
+    width:400px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  .select{
+    width:400px;
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(212, 212, 212);
+  }
+
+  .container p {
+    color: red;
+    font-size: 15px;
+  }
+  
+ 
+  

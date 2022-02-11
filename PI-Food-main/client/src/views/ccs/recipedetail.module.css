@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Playfair+Display&family=Prata&display=swap');
+
+
+
+.principal{
+    background: #fff;
+    height: auto;
+    width: 900vh;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 30px -10 rgb(138,135,135,0.5);
+    display: flex;
+    
+}
+
+.image{
+    text-align: center;
+    margin-left: 30px;
+    margin: 40px;
+    margin-top: 60px;
+    
+}
+
+.image img{
+    margin-top: 30px;
+}
+
+.image a{
+text-decoration: none;
+}
+.scores{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: auto;
+   
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+.text h1{
+    font-family: 'Prata', serif;
+    letter-spacing: 6px;
+    color: rgb(0, 104, 95);
+}
+.summary h3{
+    font-family: 'Prata', serif;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.summary a{
+    text-decoration: none;
+    color: black;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+    
+}
+
+.steps h3{
+    font-family: 'Prata', serif;
+    letter-spacing: 6px;
+}
+
+.btndiets{
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 20px;
+    background-color: rgb(255, 239, 205);
+    margin: 5px;
+    
+    box-shadow: 8px 5px 5px 0.5px rgba(71, 71, 71, 0.315);
+    
+    
+}
+
+.btntypes{
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 20px;
+    background-color: rgb(255, 203, 92);
+    margin: 5px;
+    
+    box-shadow: 8px 5px 5px 0.5px rgba(71, 71, 71, 0.315);
+    
+    
+}
+
+.btnscore{
+    padding: 5px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(1, 148, 136);
+    margin: 5px;
+    color: rgb(255, 255, 255); 
+    font-size: 25px;
+    box-shadow: 8px 5px 5px 0.5px rgba(71, 71, 71, 0.315);
+
+}
+
+.btn {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btn {
+    
+   margin: auto ;
+   padding: 20px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 100% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+  .btn a{
+      text-decoration: none;
+      color: #ffffff;
+    font-size: 5px;
+  }

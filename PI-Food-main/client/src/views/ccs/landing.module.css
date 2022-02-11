@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Playfair+Display&family=Prata&display=swap');
+
+
+body{
+    
+
+    background: #ede8e2;
+    /* display: flex; */
+    /* height: 100vh; */
+    
+}
+
+.grid{
+    background: #fff;
+    height: 90vh;
+    width: 900vh;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: 0 0 30px -10 rgb(138,135,135,0.5);
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(6,1fr);
+    overflow: hidden;
+}
+
+.grid::before{
+    content: "";
+    grid-column: 5/-1;
+    grid-row: 1/-1 ;
+    background-image: url(bolw.jpg);
+    background-size: cover;
+    background-position: right top;
+    clip-path: polygon(0 100%, 0 96%, 0 0, 0 100%);
+    animation: show 2s 2s cubic-bezier(.31,0,1,.31) forwards;
+}
+
+
+.grid_texts{
+    grid-row: 1/-2;
+    grid-column: 2/8;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    transform: translate(50%);
+    animation: show 2s 3s  forwards, move 1s 2s forwards;
+    /*  */
+   
+    
+   
+    
+    
+}
+
+.grid_welcome{
+    font-family: 'Leckerli One', cursive;
+    font-size:3em;
+    line-height: 0%; 
+ 
+  }
+
+
+
+
+ 
+
+.grid_title{
+    font-size:2.2em;
+    font-family: 'Prata', serif;
+    letter-spacing: 6px;
+    line-height: 50%;
+    
+}
+
+.grid_subtitle{
+    font-family: 'Prata', serif;
+    font-size:1.2em;
+    letter-spacing: 6px;
+    line-height: 50%;
+   
+    
+}
+
+
+.btn {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btn {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+  .btn a{
+      text-decoration: none;
+      color: #ffffff;
+    font-size: 20px;
+  }
+    
+
+
+@keyframes show{
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes move {
+    to{
+        transform: translate(0);
+    }
+}

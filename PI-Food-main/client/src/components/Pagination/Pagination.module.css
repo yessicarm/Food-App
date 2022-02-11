@@ -1,0 +1,49 @@
+
+.paginado{
+    width: 700px;
+    margin: auto;
+    
+   
+    
+    
+    
+}
+
+.btnpage:hover { background: yellow; }  /* El usuario esta sobre el enlace */
+.btnpage:active { background: lime; }        /* Enlaces activos */
+
+.paginado{
+    display: flex;
+    justify-content: center;
+}
+
+.btnpage {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btnpage {
+    
+   margin: auto ;
+   padding: 5px 8px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 100% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .btnpage:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+  .btnpage a{
+      text-decoration: none;
+      color: #ffffff;
+    font-size: 5px;
+  }
+
+ 
+
