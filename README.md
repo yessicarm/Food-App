@@ -5,7 +5,8 @@
   <img height="750" src="./Food APP.png" />
 </p>
 
-## Proyecto (Single Page Application) 
+# Proyecto (Single Page Application) Food App #
+
 
 #### Tecnologías necesarias:
 - [ ] React
@@ -16,7 +17,7 @@
 __IMPORTANTE__: No se uso ninguna librería externa para aplicar estilos a la aplicación.  Solo  CSS  puro.
 
 
-# Instrucciones para Descarga e Instalación estan al final #
+
 
 ## Descripción 
 
@@ -114,7 +115,7 @@ Servidor en Node/Express con las siguientes rutas:
   - Crea una receta en la base de datos
 
 
-## Descarga e intalación:
+## Descarga e instalación:
 
 Forkear el repositorio o descargarlo para tener una copia del mismo 
 
