@@ -48,7 +48,7 @@ Landing page con:
 - [ ] Botón para ingresar al home (`Ruta principal`)
 
 __Ruta principal__: debe contiene
-- [ ] Input de búsqueda para encontrar recetas por nombre desde el Backend
+- [ ] Input de búsqueda para encontrar recetas por nombre y por receta desde el Backend
 - [ ] Área de listado de recetas. Deberá muestra su:
   - Imagen
   - Nombre
