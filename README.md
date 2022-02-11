@@ -2,7 +2,7 @@
 # Food - App
 
 <p align="right">
-  <img height="750" src="./Food APP.png" />
+  <img height="600" src="./Food APP.png" />
 </p>
 
 # Proyecto (Single Page Application) Food App #
