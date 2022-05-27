@@ -19,7 +19,7 @@ const RecipeDetail = () => {
   }, [dispatch, id]);
   return (
     <div className={styles.principal}>
-      {recipe && (
+      {recipe ? (
         <>
           <div className={styles.image}>
             <div>
@@ -46,8 +46,11 @@ const RecipeDetail = () => {
             <h1>{recipe.name}</h1>
             <div className={styles.scores}>
               <div>
-                <h3>Score: </h3>{" "}
-                <button className={styles.btnscore}> {recipe.score}</button>
+                <h3>Price per serving: </h3>{" "}
+                <button className={styles.btnscore}>
+                  {" "}
+                  ${recipe.pricePerServing} usd
+                </button>
               </div>
 
               <div>
@@ -78,8 +81,9 @@ const RecipeDetail = () => {
             </div>
           </div>
         </>
+      ) : (
+        <h1>Loading...</h1>
       )}
-      {!recipe && <h1>Loading...</h1>}
     </div>
   );
 };

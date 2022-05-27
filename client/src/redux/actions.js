@@ -41,7 +41,7 @@ export const getDiets = () => {
         try{
         const diets = await axios.get('http://localhost:3001/types');
         dispatch({ type: GET_DIETS, payload: diets.data });
-        console.log(diets.data)
+        // console.log(diets.data)
     }catch(err){
     console.log(err)
 }
@@ -52,8 +52,7 @@ export const getDiets = () => {
 export const postNewRecipe = (payload) => {
     return async function (dispatch) {
         try{
-        const post = await axios.post('http://localhost:3001/recipe', payload);
-        
+        const post = await axios.post('http://localhost:3001/recipe', payload);        
         console.log(post)
         return post;
     }catch(err){
@@ -86,7 +85,7 @@ export const getNameRecipe=(name)=>{
 return async function(dispatch){
     try{
         var byname= await axios.get("http://localhost:3001/recipes?name=" + name );
-        console.log(byname)
+        // console.log(byname)
         return dispatch({type: GET_NAME_RECIPE, payload: byname.data})
     }catch(err){
         console.log(err)

@@ -24,12 +24,11 @@ const getDiets = require("./src/routes/getDiets");
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => { //cambiar a true para cargar al inciar o false para guardar todo
   server.listen(3001, async() => {
-      console.log('%s Cargando las dietas...');
-      const preload= await getDiets();  
-      console.log(preload, "Diets up")          
-  console.log('%s listening at 3001'); // eslint-disable-line no-console
-  
+    console.log('%s Cargando las dietas...');
+    const preload= await getDiets();                
+  console.log('%s listening at 3001'); // eslint-disable-line no-console  
   });
+   
   
   });
 

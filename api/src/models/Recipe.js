@@ -34,7 +34,7 @@ module.exports = (sequelize) => {
       
     },
 
-    score: {
+    pricePerServing: {
       type: DataTypes.FLOAT,   
       
     },
